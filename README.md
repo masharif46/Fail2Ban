@@ -21,3 +21,18 @@ Tracking Failed login entries
 
 cat /var/log/secure | grep 'Failed password'
 
+
+Checking the banned IPs by Fail2Ban
+
+iptables -L -n
+
+Check the Fal2Ban Status
+
+fail2ban-client status
+
+
+Unbanning an IP address
+
+fail2ban-client set sshd unbanip IPADDRESS
+
+------------------Thanks you ------------------
