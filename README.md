@@ -1,4 +1,10 @@
+
 # Fail2Ban
+
+###
+Fail2ban is an open-source software that actively scans the servers log files in real-time for any brute force login attempts, and if found, summarily blocks the attack using the servers firewall software (firewalld or iptables). Fail2Ban runs as a background process and continuously scans the log files for unusual login patterns and security breach attempts 
+###
+
 Install Fail2Ban on CentOS 7
 
 yum install epel-release
